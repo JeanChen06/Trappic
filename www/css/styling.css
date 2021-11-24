@@ -1,0 +1,143 @@
+/* CSS STYLING */
+/* Admin No: 191378L */
+/* Name:Jeanie Chen */
+/* PEM: 03 */
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    letter-spacing: 1px;
+    width: 432px;
+    height: 720px;
+    position: relative;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    position: relative;
+}
+
+#map {
+    height: 100%;
+    width: 432px;
+    position: relative;
+    z-index: 0;
+    background-color: #212121;
+
+    
+}
+
+.location {
+    background-color: #75C376;
+    border-radius: 10px;
+    height: 30px;
+    width: 270px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+
+.location h2 {
+    padding: 8px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.image-container {
+    background-color: #75C376;
+    border-radius: 14px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    margin: 0 auto;
+    width: 350px;
+    display: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #EF4225;
+    border: none;
+    font-size: 19px;
+}
+
+.place-image {
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    
+}
+
+.click{
+    font-size: 30px;
+    position: absolute;
+    width: 400px;
+    left: 65px;
+    top: 100px;
+    
+}
+
+
+.infocard {
+    height: 270px;
+    width: 100%;
+    background-color: #75C376;
+    position: absolute;
+    /* top: 450px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 1s;
+}
+
+.info {
+    position: absolute;
+    left: 25px;
+    padding: 25px;
+    padding-top: 25px;
+    font-size: 18px;
+}
+.infoo{
+    padding: 5px;
+}
+
+.boardingpage{
+   
+    height: 720px;
+    width: 432px;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    transition: 2s;
+}
+
+.direction {
+    background-color: #01917A;
+
+
+}
+
+.close {
+    display: none;
+}
